@@ -15,6 +15,8 @@ int main()
         //memanggil array elemen ke 5
     }
     catch (exception& e) {
-        //pena
+        //penangkap menggunakan obyek exception
+        cout << e.what() << endl;
+        /*akan dieksekusi karna array data hanya memiliki 3 elemen*/
     }
 }
